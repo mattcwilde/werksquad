@@ -2,6 +2,7 @@ from pyigm.cgm import cgmsurvey
 from linetools.spectra.io import readspec
 import linetools
 from pkg_resources import resource_filename
+import astropy.units as u
 
 
 def parser(options=None):
@@ -115,7 +116,7 @@ def cgmsys_stack_plot(cgm_survey, cgm_name, save=False, fig_path='../'):
                                             figsz=(9,7), 
                                             zref=cgm_abs_sys.z, 
                                             vlim=[-300.,  300.]*u.km/u.s)
-                                            
+
         fig_list.append(fig)
         if save:
             save_file = cgm_abs_sys.name + "_comp_" + comp.name+".pdf"
