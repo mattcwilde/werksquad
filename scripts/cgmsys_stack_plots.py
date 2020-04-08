@@ -110,7 +110,12 @@ def cgmsys_stack_plot(cgm_survey, cgm_name, save=False, fig_path='../'):
         redshift = str(cgm_abs_sys.z)
         print("lt_xspec "+spec_path+" -z "+redshift)
         print('----------------------------')
-        fig = linetools.analysis.plots.stack_plot(comp._abslines, return_fig=True, figsz=(9,7))
+        fig = linetools.analysis.plots.stack_plot(comp._abslines, 
+                                            return_fig=True, 
+                                            figsz=(9,7), 
+                                            zref=cgm_abs_sys.z, 
+                                            vlim=[-300.,  300.]*u.km/u.s)
+                                            
         fig_list.append(fig)
         if save:
             save_file = cgm_abs_sys.name + "_comp_" + comp.name+".pdf"
