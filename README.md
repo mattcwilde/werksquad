@@ -5,4 +5,8 @@ Werk SQuAD (Student Quasar Absorption Diagnosticians) is a collaboration of UW u
 
 (see https://www.werksquad.com/werk-squad-home)
 
-Their role has shifted somewhat after completeing the QSO sightlines fo CGMsquared. I have created some tools for them to analze the full CGMsquared data set.  
+Their role has shifted somewhat after completeing the QSO sightlines fo CGMsquared. I have created some tools for them to analze the full CGMsquared data set. 
+
+Dont want to clone? Try the binder! 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattcwilde/werksquad/master)
