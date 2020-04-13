@@ -7,6 +7,12 @@ Werk SQuAD (Student Quasar Absorption Diagnosticians) is a collaboration of UW u
 
 Their role has shifted somewhat after completeing the QSO sightlines fo CGMsquared. I have created some tools for them to analze the full CGMsquared data set. 
 
-Dont want to clone? Try the binder! (click the binder badge below)
-
+## Getting started via Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattcwilde/werksquad/master)
+
+1. Click the "Launch Binder" button above
+2. Wait for the interactive notebook to launch
+3. Navigate to `notebooks/species_stack.ipynb`
+4. Start learning by reading the notebook, and executing its cells
+
+
